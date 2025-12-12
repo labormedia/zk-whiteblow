@@ -26,13 +26,13 @@ Consistency: Chaum-Pedersen (Fiat-Shamir).
 Identity: Schnorr Signatures.
 
 🚀 Run It
-Bash```
+Bash´´
 git clone https://github.com/your-username/waas-protocol.git
 cd waas-protocol
 cargo run
-``
+´´´
 Output:
-``
+´´´
 --- WHISTLEBLOWING-AS-A-SERVICE (WaaS) PROTOCOL ---
 🏢 [Org] Initializing Integrity Shield for 'BuildTheBridge DAO'
 🕵️  [Reformer] Detecting fraud of $1000000...
@@ -52,7 +52,7 @@ Expenditure Slashed (Recovered): $1000000
 > Protocol Revenue (Tax):        $50000 (5%)
 > Net Savings to Organization:   $850000
 -------------------------------
-``
+´´´
 The Insider: Gets paid to apply the reform.
 
 Org: Enforces reform.
