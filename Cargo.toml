@@ -1,0 +1,17 @@
+[package]
+name = "zk-whiteblow"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# 1. Cryptographic Primitives (Ristretto Group)
+# 'digest' and 'rand_core' features are needed for compatibility
+curve25519-dalek = { version = "4.1.3", features = ["digest", "rand_core"] }
+
+# 2. Randomness and Hashing
+rand_core = { version = "0.6.4", features = ["getrandom"] }
+sha2 = "0.10"
+
+# 3. ZK Toolkit (The Core Logic)
+# We pull directly from the repository.
+twisted_el_gamal_non_interactive_schnorr_chaum_pedersen_toolkit = { git = "https://github.com/labormedia/TwistedElGamal_Non-Interactive_Schnorr_Chaum-Pedersen_toolkit", branch = "main" }
