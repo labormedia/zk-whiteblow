@@ -27,8 +27,8 @@ Identity: Schnorr Signatures.
 
 🚀 Run It
 ```bash
-git clone https://github.com/your-username/waas-protocol.git
-cd waas-protocol
+git clone https://github.com/labormedia/zk-whiteblow.git
+cd zk-whiteblow
 cargo run
 ```
 Output:
